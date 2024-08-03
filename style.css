@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c1e6cf;
+    width: 100%;
+}
+
+.container{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 1.8rem;
+    border-radius: 1rem;
+}
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-content h1{
+    font-size: 1.5rem;
+    padding-bottom: 0.8rem;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.names, .queries{
+    display: flex;
+    justify-content: space-between;
+}
+
+.names section, .email, .query, .message{
+    display: flex;
+    flex-direction: column;
+}
+
+.names section input, .queries section{
+    width: 20rem;
+}
+
+.names section input, .email input, .queries section, #message{
+    height: 2rem;
+    padding: 0.5rem;
+    margin-block: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0.2px solid rgba(71, 68, 68, 0.500);
+}
+
+.queries section{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.queries section input{
+    padding-left: 1.rem;
+}
+
+#message{
+    height: 5rem;
+}
+
+.consent{
+    margin: 0 auto;
+}
+
+#submit{
+    background-color: rgb(4, 64, 57);
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    height: 2.5rem;
+    font-size: 1rem;
+}
+
+.attribution{
+    text-align: center;
+}
